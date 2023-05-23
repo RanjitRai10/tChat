@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Set the ring color and width -->
+    <stroke
+        android:color="#FF5722"
+        android:width="2dp"/>
+
+    <!-- Set the ring size -->
+    <size
+        android:width="60dp"
+        android:height="60dp"/>
+
+</shape>

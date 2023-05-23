@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">iChat</string>
+    <string name="homeIcon">Home</string>
+    <string name="Search">Search</string>
+    <string name="Add">Add post</string>
+    <string name="Notification">Notification</string>
+    <string name="Profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discover">iChat</string>
+    <string name="add_story">Add Story</string>
+    <string name="profile_name">Adam Philipps</string>
+</resources>

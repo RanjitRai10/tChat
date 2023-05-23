@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notification_profile_image"
+        android:layout_width="@dimen/_50mdp"
+        android:layout_height="@dimen/_50mdp"
+        android:padding="2dp"
+        android:layout_margin="@dimen/_2mdp"
+        android:src="@drawable/profile_img_01"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/_2mdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="@dimen/_50mdp"
+        android:layout_height="@dimen/_50mdp"
+        android:background="@drawable/orange_circular_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/notification_profile_image"
+        app:layout_constraintEnd_toEndOf="@id/notification_profile_image"
+        app:layout_constraintStart_toStartOf="@+id/notification_profile_image"
+        app:layout_constraintTop_toTopOf="@+id/notification_profile_image"
+        app:layout_constraintVertical_bias="0.45" />
+
+
+    <TextView
+        android:id="@+id/notification3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="Ranjit Rai Liked your photo"
+        android:textSize="@dimen/_10font_mdp"
+        app:layout_constraintBottom_toBottomOf="@+id/notification_profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/notification_profile_image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just now"
+        android:layout_marginTop="@dimen/_3mdp"
+        app:layout_constraintStart_toStartOf="@+id/notification3"
+        app:layout_constraintTop_toBottomOf="@+id/notification3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

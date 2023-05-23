@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        drawable = "@drawable/home_new_icon"
+        text = "@string/homeIcon"/>
+    <tab
+        drawable = "@drawable/notification_new_icon"
+        text = "@string/Notification"/>
+    <tab
+        drawable = "@drawable/add_post_new_icon"
+        text = "@string/Add"/>
+    <tab
+        drawable = "@drawable/search_new_icon"
+        text = "@string/Search"/>
+    <tab
+        drawable = "@drawable/profile_new_icon"
+        text = "@string/Profile"/>
+</Tabs>
